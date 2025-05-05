@@ -1,12 +1,34 @@
-# React + Vite
+# 🏫 Njiiri School Website (React Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, responsive React-based school website for **Njiiri School**, showcasing key sections such as About Us, Academics, and Contact. It features clean design, dark mode styling, and structured component-based architecture.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔹 Responsive design with dark mode
+- 🔹 Smooth scrolling and navigation
+- 🔹 Hero section with school image
+- 🔹 Modular components (`Navbar`, `Hero`, `Section`, `Footer`)
+- 🔹 About, Academics, and Contact sections
+- 🔹 Easy to customize and extend
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (via Vite)
+- **CSS** for styling
+- **JSX** components
+
+## 📁 Folder Structure
+
+njiiri-school/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── NavBar.jsx
+│ │ ├── Hero.jsx
+│ │ ├── Section.jsx
+│ │ └── Footer.jsx
+│ ├── styles.css
+│ └── App.jsx
+├── package.json
+└── README.md
